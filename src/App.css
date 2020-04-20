@@ -1,0 +1,112 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:Nunito;
+  color:#fff;
+}
+
+.container{
+  width:80%;
+  margin:auto;
+}
+
+.App{
+  height:100vh;
+  width:100%;
+}
+
+.title{
+  padding:20px 0 40px 0;
+  color:rgb(86, 0, 147);
+  font-size: 40px;
+  font-family: 'Ultra', serif;
+}
+
+.weather-temp{
+  padding-bottom:40px;
+  padding-left:60px;
+}
+
+.weather-temp h1 , .weather-temp h4 , .weather-temp p{
+  padding-bottom: 10px;
+}
+
+.weather-info p , .weather-info h2{
+  text-align:center;
+}
+
+.user-weather{
+  margin-top:60px;
+  color:#fff;
+  padding:30px;
+  border-radius: 10px;
+  border:1px solid #fff;
+}
+
+.navbar{
+  background-color:#ddd;
+}
+
+.mainImg{
+  padding-top:15px;
+}
+
+.region{
+  margin-top:30px;
+}
+
+.regioninput{
+  margin-left:15rem;
+  background:none;
+  border:none;
+  border-bottom:2px solid #fff;
+  padding:0 40px 0 0px;
+  outline:none;
+  font-size: 22px;
+  color:black;
+}
+.regioninput::placeholder{
+  color:white;
+  font: bold;
+}
+.region button{
+  width:100px;
+  height:40px;
+  padding:4px;
+  margin:10px;
+  background-color: transparent;
+  font-size: 18px;
+  border:2px solid white;
+  outline:none;
+  cursor: pointer;
+}
+.region button:hover{
+  outline:none;
+  cursor: pointer;
+}
+
+.regioninput::placeholder{
+  font-family:Nunito;
+  font-weight:600;
+  font-size:1rem;
+  padding-left:0;
+}
+.user-weather p{
+  text-align: center;
+  margin:auto;
+  font-size: 30px;
+  color:purple;
+}
+.user-weather h2{
+  color:black;
+}
+.user-weather h1{
+  color:rgb(238, 67, 96);
+}
+.error{
+  font-size: 32px;
+  color:black;
+  font-style: italic;
+  text-align: center;
+}
